@@ -3,11 +3,18 @@ var React = require('react')
 var About = (props) => {
   return (
     <div>
-      <h3>
-        About component
-      </h3>
+      <h1 className='text-centered'>
+        About Magic Weather
+      </h1>
       <p>
-        About the weather app
+        This app was built as part of&nbsp;
+        <a href='https://www.udemy.com/the-complete-react-web-app-developer-course'>
+          Andrew Mead's Complete React Web Developer Course on Udemy
+        </a>. Technologies include React, React Router, Webpack, Node/Express,&nbsp;
+         Foundation, and more. You can view the source at the&nbsp;
+        <a href='http://github.com/mitchlillie/react-weather'>
+          Github repo
+        </a>.
       </p>
     </div>
   )
