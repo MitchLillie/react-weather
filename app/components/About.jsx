@@ -3,7 +3,7 @@ var React = require('react')
 var About = (props) => {
   return (
     <div>
-      <h1 className='text-centered'>
+      <h1 className='text-centered page-title'>
         About Magic Weather
       </h1>
       <p>
